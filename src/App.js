@@ -9,8 +9,18 @@ const PersonList = () =>{
     )
 }
 const Person = () =>{
-    return <div>I am person component</div>
+    const url = "https://randomuser.me/api/portraits/thumb/men/22.jpg";
+
+    return ( <div class="person">
+    <img src={url}></img>
+        <div>
+            <h4>Name</h4>
+            <h4>Job</h4>
+        </div>
+    </div>
+    )
 }
+
 
 
 export default App;
