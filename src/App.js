@@ -22,7 +22,11 @@ const PersonList = () =>{
     },
   ];
     return ( <section>
-
+        <Person person={people[0]}/>;
+        <Person person={people[1]}>
+            Hi this is a test text.
+        </Person>;
+        <Person person={people[2]}/>;
     </section>
     )
 }
